@@ -1,3 +1,8 @@
 name = "bloom-it"
 compatibility_date = "2025-10-01"
 pages_build_output_dir = "dist"
+
+[vars]
+VITE_API_BASE_URL = "/api"
+SUPABASE_URL = "https://mzivaupgbpnrelpbramu.supabase.co"
+ALLOWED_ORIGIN = "https://bloomit.pages.dev"
